@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><z-index></z-index></title>
+
+    <style>
+        .div-out {
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            position: relative;
+        }
+        .div1 {
+            height: 400px;
+            width: 400px;
+            background-color: rgb(214, 72, 72);
+            position: absolute;
+            z-index: 1;
+        }
+        .div2 {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(46, 189, 25);
+            /* margin-top: -300px; */
+            position: absolute;
+            z-index: 2;
+        }
+        .div3 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(18, 7, 225);
+            /* margin-top: -500px; */
+            position: absolute;
+            z-index: 3;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="div-out">
+        <div class="div1">  </div>
+        <div class="div2">  </div>
+        <div class="div3">  </div>
+    </div>
+</body>
+
+</html>
